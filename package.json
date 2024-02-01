@@ -1,5 +1,5 @@
 {
-  "name": "node_express_mongodb",
+  "name": "express-node-mongodb-blog",
   "version": "1.0.0",
   "description": "Practicing NodeJS, Express and MongoDB",
   "main": "index.js",
