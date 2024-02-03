@@ -1,4 +1,3 @@
 # nas local env
 node_modules/
-.env
 .zshrc
