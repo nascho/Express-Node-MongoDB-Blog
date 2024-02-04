@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.21",
     "method-override": "^3.0.0",
     "session": "^0.1.0"
   },
