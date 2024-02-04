@@ -1,9 +1,21 @@
+/*-----
+    prior to installing express below
+-----*/
+
+
+/*
 import http from 'http';
 import fs from 'fs';
+import _ from 'lodash';
+*/
 
-
+/*
 const server = http.createServer((req, res) => {
-    console.log(req.url, req.method);
+    // console.log(req.url, req.method);
+
+    // using lodash
+    const num = _.random(20);
+    console.log(num);
 
     // set header content type
     // res.setHeader('Content-Type', 'text/plain');
@@ -52,4 +64,4 @@ const server = http.createServer((req, res) => {
 server.listen(5999, 'localhost', () => {
     console.log('listening for requests on port 5999');
 })
-
+*/
