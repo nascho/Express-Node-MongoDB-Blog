@@ -12,7 +12,7 @@ const app = express();
 /*-----
 connect to mongodb
 -----*/
-const dbURI = 'mongodb+srv://nchoudhury1:CxX8kXvG8idyNpfj@blog.zigbdne.mongodb.net/blogs-db?retryWrites=true&w=majority';
+const dbURI = '';
 mongoose.connect(dbURI)
     .then(resolve => app.listen(5999))
     .catch(err => console.log('db connection failed'));
