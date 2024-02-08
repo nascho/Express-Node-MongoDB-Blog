@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
@@ -12,7 +13,7 @@ const app = express();
 /*-----
 connect to mongodb
 -----*/
-const dbURI = '';
+const dbURI = process.env.MONGODB_URI;
 mongoose.connect(dbURI)
     .then(resolve => app.listen(5999))
     .catch(err => console.log('db connection failed'));
