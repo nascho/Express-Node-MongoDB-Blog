@@ -1,9 +1,9 @@
 # Express, Node and MongoDB Blog
 
-##Description
+## Description
 While attending Founders and Coders FAC30A practiced with Express and MongoDB to refresh myself on the technologies.
 
-##Installation
+## Installation
 To install the project please click the link below to clone the project to your terminal:
 
 ```sh
